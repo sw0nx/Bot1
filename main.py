@@ -25,7 +25,7 @@ async def on_member_join(member):
     if channel:
         embed = discord.Embed(
             description=(
-                f"# {member.mention} 안녕하세요!\n\n"
+                f"## {member.mention} 안녕하세요!\n\n"
                 f"**<#1398259715192127569> 인증 하시면 활동 가능합니다.**\n"
                 f"**<#1398260667768635392> 서버 이용 전 꼭 필독해주세요.**"
             ),
